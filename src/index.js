@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { DataStore } from 'aws-amplify/datastore';
-import { Condominios } from './models';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
