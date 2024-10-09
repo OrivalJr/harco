@@ -1,0 +1,47 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-harco-staging-912b9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::944472297482:role/amplify-harco-staging-912b9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::944472297482:role/amplify-harco-staging-912b9-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-harco-staging-912b9-deployment",
+      "UnauthRoleName": "amplify-harco-staging-912b9-unauthRole",
+      "StackName": "amplify-harco-staging-912b9",
+      "StackId": "arn:aws:cloudformation:us-west-2:944472297482:stack/amplify-harco-staging-912b9/6d316a50-8652-11ef-93dd-0ac665b0a487",
+      "AmplifyAppId": "d2uykzr4olq2zk"
+    }
+  },
+  "api": {
+    "Harco": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ],
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            }
+          }
+        },
+        "GraphQLAPIIdOutput": "6n7zlqujejbshhgn77zpyydiqe",
+        "GraphQLAPIEndpointOutput": "https://wo2zznsmezdmbew7aleifrk5hi.appsync-api.us-west-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-jvkzbepkszeqfjg5wv2dg4i22y"
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync",
+      "lastPushTimeStamp": "2024-10-09T17:05:19.859Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-harco-staging-912b9-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiHarco"
+      },
+      "lastPushDirHash": "FfkCjLCpVCsPWCzad80LevX/6Q0="
+    }
+  }
+}
