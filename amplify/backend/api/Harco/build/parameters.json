@@ -2,12 +2,7 @@
     "AppSyncApiName": "Harco",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": false,
-    "authRoleName": {
-        "Ref": "AuthRoleName"
-    },
-    "unauthRoleName": {
-        "Ref": "UnauthRoleName"
-    },
+    "AuthModeLastUpdated": "2024-10-09T16:12:21.433Z",
     "S3DeploymentBucket": "amplify-harco-staging-912b9-deployment",
     "S3DeploymentRootKey": "amplify-appsync-files/45fe40d9ca564e5f0c339ee77d3ab60bea51c1d4"
 }

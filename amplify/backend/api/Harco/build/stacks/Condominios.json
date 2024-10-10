@@ -553,7 +553,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -674,7 +674,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -795,7 +795,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -982,7 +982,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -1190,7 +1190,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -1362,7 +1362,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -1499,7 +1499,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -1561,7 +1561,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },
@@ -1623,7 +1623,7 @@
               {
                 "Ref": "referencetotransformerrootstackunauthRoleName49F3C1FERef"
               },
-              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
+              "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc\"))\n$util.qr($ctx.stash.put(\"adminRoles\", [\"us-west-2_SXdurZBVX_Full-access/CognitoIdentityCredentials\",\"us-west-2_SXdurZBVX_Manage-only/CognitoIdentityCredentials\"]))\n$util.toJson({})"
             ]
           ]
         },

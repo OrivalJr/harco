@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-harco-staging-912b9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::944472297482:role/amplify-harco-staging-912b9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::944472297482:role/amplify-harco-staging-912b9-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-harco-staging-912b9-deployment",
+      "UnauthRoleName": "amplify-harco-staging-912b9-unauthRole",
+      "StackName": "amplify-harco-staging-912b9",
+      "StackId": "arn:aws:cloudformation:us-west-2:944472297482:stack/amplify-harco-staging-912b9/6d316a50-8652-11ef-93dd-0ac665b0a487",
+      "AmplifyAppId": "d2uykzr4olq2zk"
+    },
+    "categories": {
+      "auth": {
+        "Harco": {}
+      }
+    }
+  }
+}
