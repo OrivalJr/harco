@@ -36,7 +36,7 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "AppSync",
-      "lastPushTimeStamp": "2024-10-10T16:36:06.311Z",
+      "lastPushTimeStamp": "2024-10-10T16:39:36.430Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-harco-staging-912b9-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiHarco"
@@ -45,12 +45,17 @@
   },
   "auth": {
     "Harco": {
-      "customAuth": false,
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
       "dependsOn": [],
+      "customAuth": false,
       "frontendAuthConfig": {
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
         ],
         "passwordProtectionSettings": {
           "passwordPolicyMinLength": 8,
@@ -60,19 +65,19 @@
             "REQUIRES_UPPERCASE"
           ]
         },
-        "signupAttributes": [
-          "EMAIL"
-        ],
-        "socialProviders": [],
-        "usernameAttributes": [
-          "EMAIL"
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
         ],
         "verificationMechanisms": [
           "EMAIL"
         ]
       },
-      "providerPlugin": "awscloudformation",
-      "service": "Cognito",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-harco-staging-912b9-deployment/amplify-cfn-templates/auth/Harco-cloudformation-template.json",
+        "logicalId": "authHarco"
+      },
+      "lastPushTimeStamp": "2024-10-10T16:39:36.432Z",
       "output": {
         "UserPoolId": "us-west-2_rXohT45a6",
         "AppClientIDWeb": "4vvta36l37va0nq8jd89sn53ac",
@@ -82,11 +87,7 @@
         "IdentityPoolName": "testAuthIdentityPool__staging",
         "UserPoolName": "Harco"
       },
-      "lastPushTimeStamp": "2024-10-10T16:36:06.313Z",
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-harco-staging-912b9-deployment/amplify-cfn-templates/auth/Harco-cloudformation-template.json",
-        "logicalId": "authHarco"
-      }
+      "lastPushDirHash": "jgE52vDWNNWoaQcHfx3RmlklJwc="
     }
   }
 }
