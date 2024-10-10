@@ -23,11 +23,11 @@
             }
           ],
           "defaultAuthentication": {
-            "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 30,
               "description": "api key description"
-            }
+            },
+            "authenticationType": "API_KEY"
           }
         },
         "GraphQLAPIIdOutput": "6n7zlqujejbshhgn77zpyydiqe",
@@ -36,12 +36,58 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "AppSync",
-      "lastPushTimeStamp": "2024-10-09T17:05:19.859Z",
+      "lastPushTimeStamp": "2024-10-09T17:54:23.481Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-harco-staging-912b9-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiHarco"
+      }
+    }
+  },
+  "auth": {
+    "Harco": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
       },
-      "lastPushDirHash": "FfkCjLCpVCsPWCzad80LevX/6Q0="
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-harco-staging-912b9-deployment/amplify-cfn-templates/auth/Harco-cloudformation-template.json",
+        "logicalId": "authHarco"
+      },
+      "lastPushTimeStamp": "2024-10-09T17:54:23.657Z",
+      "output": {
+        "UserPoolId": "us-west-2_rXohT45a6",
+        "AppClientIDWeb": "4vvta36l37va0nq8jd89sn53ac",
+        "AppClientID": "7lkq969ehm6r7rg194aiu1ao6m",
+        "IdentityPoolId": "us-west-2:8cfa8aa8-fde0-4d92-a3e7-7d7402be99bc",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:944472297482:userpool/us-west-2_rXohT45a6",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "Harco"
+      },
+      "lastPushDirHash": "jgE52vDWNNWoaQcHfx3RmlklJwc="
     }
   }
 }
